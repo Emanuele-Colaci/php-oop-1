@@ -3,6 +3,13 @@
         public $title;
         public $director;
         public $releaseYear;
-        public $rating;
+
+        public function __construct($title, $director, $releaseYear) {
+            $this->title = $title;
+            $this->director = $director;
+            $this->releaseYear = $releaseYear;
+        }
+
     }
+
 ?>
